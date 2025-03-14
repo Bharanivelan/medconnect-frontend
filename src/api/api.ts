@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base URL for backend
 const API = axios.create({
-  baseURL: "https://medconnect-backend-beta.vercel.app/api",
+  baseURL: "https://medconnect-backend-lemon.vercel.app/api",
 });
 
 // Add token for protected routes (if needed)
